@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condo Services Gestão</title>
+    <style>
+        body {
+            font-family: Arial, Verdana;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: hsl(209, 93%, 33%);
+            color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        header img {
+            height: 150px;
+            width: 150px;
+        }
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .section {
+            padding: 20px;
+        }
+        .section-white {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+        .qr-code {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo da Condo Services Gestão">
+    <nav>
+        <a href="#fale-com-o-expert">Fale com o Expert</a>
+        <a href="#contato">Contato</a>
+        <a href="#sobre">Sobre</a>
+    </nav>
+</header>
+
+<div class="section qr-code">
+    <h1>Bem-vindo à Condo Services Gestão</h1>
+    <p>Oferecemos os melhores serviços de gestão para o seu condomínio.</p>
+    <img src="qrcode.png" alt="QR Code para WhatsApp">
+</div>
+
+<div id="contato" class="section section-white">
+    <h2>Contato</h2>
+    <form class="contact-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="gestor@condoservicesgestao.com">
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<div id="sobre" class="section section-white">
+    <h2>Sobre</h2>
+    <p>Condo Services Gestão, especializado em serviço de síndico profissional com mais de 11 anos de experiência no mercado condominial. Minha missão é garantir a gestão eficiente e harmoniosa dos condomínios, com foco na transparência e no bem-estar dos moradores.</p>
+    <h3>Serviços Oferecidos</h3>
+    <ul>
+        <li>Administração Financeira</li>
+        <li>Gestão de Conflitos</li>
+        <li>Manutenção Predial</li>
+        <li>Organização de Assembleias</li>
+        <li>Assessoria Jurídica</li>
+        <li>Gestão por indicadores do sistema adotado</li>
+        <li>Plantão tira dúvidas todo o mês no condomínio, abordando sempre um tema específico do condomínio</li>
+    </ul>
+</section>
+</main>
+    <p>Informações sobre a empresa, missão, visão, valores e equipe.</p>
+</div>
+
+</body>
+</html>
