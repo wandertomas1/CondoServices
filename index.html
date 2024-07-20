@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Condo Services Gestão - Síndico Profissional</title>
+    <title>Condo Services Gestão</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #171599;
+            background-color: #0f0f0f;
             color: rgb(192, 4, 4);
             padding: 10px 0;
             text-align: center;
@@ -35,7 +35,7 @@
             background-image: url('Condo.jpg');
             background-size: cover;
             background-position: center;
-            color: rgb(25, 8, 121);
+            color: rgb(18, 8, 77);
             text-align: center;
             padding: 100px 20px;
             position: relative;
@@ -61,6 +61,14 @@
         }
 
         .qr-code img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 180px;
             width: 150px;
             height: 150px;
         }
@@ -104,7 +112,10 @@
 <body>
     <header>
         <div class="qr-code">
-            <img src="path/to/qr-code.png" alt="QR Code">
+            <img src="path/to/qr-code.png" alt="QR Code" onerror="this.src='qr-placeholder.png';">
+        </div>
+        <div class="logo">
+            <img src="path/to/logo.png" alt="Logo" onerror="this.src='logo-placeholder.png';">
         </div>
         <h1>Condo Services Gestão - Síndico Profissional</h1>
         <nav>
@@ -140,6 +151,15 @@
                 <li>Plantão tira dúvidas todo o mês no condomínio, abordando sempre um tema específico do condomínio</li>
             </ul>
         </section>
+
+        <h3>Chaves de sucesso da gestão</h3>
+        <ul>
+            </li>Segurança</li>
+            <li>Transparência</li>
+            <li>Respeito</li>
+            <li>Valorização</li>
+        </ul>
+    </section>
 
         <section id="contato">
             <h2>Informações de Contato</h2>
