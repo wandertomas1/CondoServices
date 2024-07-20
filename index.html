@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #252222;
+            background-color: #0f0f0f;
             color: rgb(192, 4, 4);
             padding: 10px 0;
             text-align: center;
@@ -35,7 +35,7 @@
             background-image: url('https://www.condoservicesgestao.com/images/Condo.jpg');
             background-size: cover;
             background-position: center;
-            color: rgb(3, 1, 15);
+            color: rgb(238, 236, 247);
             text-align: center;
             padding: 100px 20px;
             position: relative;
@@ -55,22 +55,15 @@
         }
 
         .whatsapp-icon {
-            position: absolute;
-            top: 10px;
-            left: 10px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 1000;
         }
 
         .whatsapp-icon img {
             width: 50px;
             height: 50px;
-        }
-
-        .logo {
-            position: absolute;
-            top: 10px;
-            left: 70px;
-            width: 150px;
-            height: 150px;
         }
 
         main {
@@ -111,14 +104,6 @@
 </head>
 <body>
     <header>
-        <div class="whatsapp-icon">
-            <a href="https://wa.me/31973106723" target="_blank">
-                <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp" onerror="this.src='https://www.condoservicesgestao.com/images/whatsapp-placeholder.png';">
-            </a>
-        </div>
-        <div class="logo">
-            <img src="https://www.condoservicesgestao.com/images/logo.png" alt="Logo" onerror="this.src='https://www.condoservicesgestao.com/images/logo-placeholder.png';">
-        </div>
         <h1>Condo Services Gestão - Síndico Profissional</h1>
         <nav>
             <ul>
@@ -190,5 +175,11 @@
     <footer>
         <p>© 2024 Condo Services Gestão. Todos os direitos reservados.</p>
     </footer>
+
+    <div class="whatsapp-icon">
+        <a href="https://wa.me/31973106723" target="_blank">
+            <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp" onerror="this.src='https://www.condoservicesgestao.com/images/whatsapp-placeholder.png';">
+        </a>
+    </div>
 </body>
 </html>
