@@ -92,6 +92,16 @@
             cursor: pointer;
         }
 
+        .whatsapp-button-wrapper {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .whatsapp-icon-inline {
+            margin-left: 10px;
+        }
+
         footer {
             background-color: #111010;
             text-align: center;
@@ -164,7 +174,14 @@
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
                 
-                <button type="submit">Enviar</button>
+                <div class="whatsapp-button-wrapper">
+                    <button type="submit">Enviar</button>
+                    <div class="whatsapp-icon-inline">
+                        <a href="https://wa.me/31973106723" target="_blank">
+                            <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp" onerror="this.src='https://www.condoservicesgestao.com/images/whatsapp-placeholder.png';">
+                        </a>
+                    </div>
+                </div>
             </form>
         </section>
     </main>
@@ -172,11 +189,5 @@
     <footer>
         <p>© 2024 Condo Services Gestão. Todos os direitos reservados.</p>
     </footer>
-
-    <div class="whatsapp-icon">
-        <a href="https://wa.me/31973106723" target="_blank">
-            <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp" onerror="this.src='https://www.condoservicesgestao.com/images/whatsapp-placeholder.png';">
-        </a>
-    </div>
 </body>
 </html>
