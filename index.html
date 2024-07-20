@@ -17,6 +17,7 @@
             color: rgb(192, 4, 4);
             padding: 10px 0;
             text-align: center;
+            position: relative;
         }
 
         nav ul {
@@ -30,13 +31,19 @@
             margin: 0 10px;
         }
 
+        nav ul li a {
+            color: white; /* Cor branca para os links de navegação */
+            text-decoration: none;
+        }
+
         .hero-image {
             background-image: url('https://www.condoservicesgestao.com/images/Condo.jpg');
             background-size: cover;
             background-position: center;
-            color: rgb(233, 231, 243);
+            color: rgb(8, 7, 17);
             text-align: center;
             padding: 100px 20px;
+            position: relative;
         }
 
         .hero-image h2 {
@@ -50,6 +57,29 @@
         .main-image {
             max-width: 100%;
             height: auto;
+        }
+
+        .whatsapp-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #25D366; /* Verde do WhatsApp */
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .whatsapp-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .whatsapp-container {
+            margin-top: 20px;
         }
 
         main {
@@ -78,16 +108,6 @@
             color: white;
             border: none;
             cursor: pointer;
-        }
-
-        .whatsapp-button-wrapper {
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-        }
-
-        .whatsapp-icon-inline {
-            margin-left: 10px;
         }
 
         footer {
@@ -162,10 +182,12 @@
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
                 
-                <div class="whatsapp-button-wrapper">
-                    <button type="submit">Enviar</button>
-                    <a href="https://wa.me/31973106723" target="_blank" class="whatsapp-icon-inline">
-                        <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp" onerror="this.src='https://www.condoservicesgestao.com/images/whatsapp-placeholder.png';">
+                <button type="submit">Enviar</button>
+                
+                <div class="whatsapp-container">
+                    <a href="https://wa.me/31973106723" target="_blank" class="whatsapp-button">
+                        <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp">
+                        WhatsApp
                     </a>
                 </div>
             </form>
