@@ -32,7 +32,7 @@
         }
 
         nav ul li a {
-            color: white; /* Cor branca para os links de navegação */
+            color: white;
             text-decoration: none;
         }
 
@@ -40,7 +40,7 @@
             background-image: url('https://www.condoservicesgestao.com/images/Condo.jpg');
             background-size: cover;
             background-position: center;
-            color: rgb(8, 7, 17);
+            color: rgb(18, 8, 77);
             text-align: center;
             padding: 100px 20px;
             position: relative;
@@ -57,29 +57,6 @@
         .main-image {
             max-width: 100%;
             height: auto;
-        }
-
-        .whatsapp-button {
-            display: inline-flex;
-            align-items: center;
-            background-color: #25D366; /* Verde do WhatsApp */
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        .whatsapp-button img {
-            width: 20px;
-            height: 20px;
-            margin-right: 5px;
-        }
-
-        .whatsapp-container {
-            margin-top: 20px;
         }
 
         main {
@@ -108,6 +85,18 @@
             color: white;
             border: none;
             cursor: pointer;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
         }
 
         footer {
@@ -183,13 +172,7 @@
                 <textarea id="mensagem" name="mensagem" required></textarea>
                 
                 <button type="submit">Enviar</button>
-                
-                <div class="whatsapp-container">
-                    <a href="https://wa.me/31973106723" target="_blank" class="whatsapp-button">
-                        <img src="https://www.condoservicesgestao.com/images/whatsapp-icon.png" alt="WhatsApp">
-                        WhatsApp
-                    </a>
-                </div>
+                <a href="https://wa.me/31973106723" target="_blank" class="whatsapp-button">WhatsApp</a>
             </form>
         </section>
     </main>
