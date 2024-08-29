@@ -1,0 +1,100 @@
+:root {
+    --font-size-h1: 48px;
+    --logo-url: url('https://irp.cdn-website.com/-resellers-preview/peo_tpires@uolinc.com/logo/q17br3i7fca395e754nugm97rr.png');
+    --backgroundImage: none;
+    --text-on-button: #ffffff;
+    --font-size-h2: 40px;
+    --font-size-h3: 32px;
+    --font-size-h4: 24px;
+    --font-size-h5: 20px;
+    --font-size-h6: 16px;
+    --font-size-body-text: 13px;
+    --font-size-body: 14px;
+    --font-size-plain-text: 16px;
+    --font-size-bodySubtitle: 14px;
+    --font-size-footer: 12px;
+    --font-size-tiny: 13px;
+    --font-size-display-1: 32px;
+    --font-size-display-2: 24px;
+    --font-size-display-3: 20px;
+    --font-size-display-4: 10px;
+    --font-size-he-1: 16px;
+    --font-size-he-2: 14px;
+    --font-size-he-3: 13px;
+    --font-size-he-4: 12px;
+    --font-size-italic: 14px;
+    --button-color: #ff8024;
+    --visible-button-hover-color: rgb(232, 116, 32);
+    --button-hover-color: #F86F4C;
+    --button-visible-font-color: #ffffff;
+    --header-color: #ffffff;
+    --header-text-color: #525252;
+    --header-border-color: #b2b2b2;
+    --backgroundColor: #f7f7f7;
+    --link-color: #8c8c8c;
+    --text-on-light: #ff8024;
+    --oneDevicesFontIconColor: #676767;
+    --d-font: 'Label Sans', sans-serif;
+    --d-title-font: 'Label Sans', sans-serif;
+    --editorSettingsTopBarDisplay: block;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+    height: 100%;
+}
+
+button, input, select, textarea {
+    font-family: sans-serif;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+    background-color: transparent;
+    padding: 0;
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    width: 95%;
+    background-clip: padding-box;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow: -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+::selection {
+    background: #2d6598;
+    color: #fff;
+}
+
+#editorSettingsTopBar a.layoutIcon {
+    color: var(--oneDevicesFontIconColor);
+    fill: var(--oneDevicesFontIconColor);
+    width: 50px;
+    border-right: 1px solid rgba(107, 112, 117, 0.31);
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

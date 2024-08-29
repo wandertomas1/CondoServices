@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services Gestão</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: Arial, Verdana;
+            font-family: 'Trebuchet MS', sans-serif; /* Ajuste da fonte */
             margin: 0;
             padding: 0;
+            color: rgb(15, 15, 15);
         }
 
         header {
-            background-color: #0f0f0f;
-            color: rgb(192, 4, 4);
-            padding: 10px 0;
+            background-color: #034086;
+            color: rgb(252, 249, 249);
+            padding: 40px 0;
             text-align: center;
             position: relative;
+        }
+
+        .main-logo {
+            width: 300px;
+            height: 100px;
+            display: block;
+            margin: 0 auto; /* Centraliza a logo horizontalmente */
         }
 
         nav ul {
@@ -32,17 +40,17 @@
         }
 
         nav ul li a {
-            color: white;
+            color: rgb(247, 244, 244);
             text-decoration: none;
         }
 
         .hero-image {
-            background-image: url('https://www.servicesgestao.com.br/images/Condo.jpg');
+            background-image: url('CONDO.png'); /* Verifique o caminho da imagem */
             background-size: cover;
             background-position: center;
-            color: rgb(18, 8, 77);
+            color: rgb(12, 12, 12);
             text-align: center;
-            padding: 100px 20px;
+            padding: 200px 100px;
             position: relative;
         }
 
@@ -51,16 +59,22 @@
         }
 
         .hero-image p {
-            font-size: 1.2em;
+            font-size: 2.5em;
         }
 
         .main-image {
-            max-width: 100%;
+            max-width: auto;
             height: auto;
         }
 
         main {
-            padding: 20px;
+            padding: 5px 0; /* Ajuste o padding para apenas o topo e base */
+        }
+
+        .container {
+            max-width: 1000px; /* Ajuste para o tamanho desejado */
+            margin: 10px auto; /* Centraliza o contêiner */
+            padding: 0 10px; /* Corrigido o padding */
         }
 
         section {
@@ -75,41 +89,51 @@
         form input, form textarea {
             width: 100%;
             padding: 8px;
-            margin-top: 5px;
+            margin-top: 6px;
         }
 
         form button {
             margin-top: 10px;
             padding: 10px 20px;
-            background-color: #0a0a0a;
+            background-color: #123c8a;
             color: white;
             border: none;
             cursor: pointer;
         }
 
         .whatsapp-button {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #25D366;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
             color: white;
-            border: none;
-            cursor: pointer;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
             text-decoration: none;
-            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000; /* Para garantir que o botão fique no topo */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1ebe57; /* Cor do botão ao passar o mouse */
         }
 
         footer {
             background-color: #111010;
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0;
             color: white;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Services Gestão - O Gestor do seu Condominial</h1>
+        <h1>Services Gestão - O Gestor do seu Condomínio</h1>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
@@ -121,60 +145,62 @@
     </header>
 
     <main>
-        <section id="home">
-            <div class="hero-image">
-                <h2>Bem-vindo!</h2>
-                <p>Seu parceiro ideal para a gestão do seu condominio.</p>
-                <img src="https://www.servicesgestao.com.br/images/Condo.jpg" alt="Condo Image" class="main-image">
-            </div>
-        </section>
+        <div class="container"> <!-- Início do contêiner -->
+            <section id="home">
+                <div class="hero-image">
+                    <!-- Verifique se deseja adicionar algum texto ou imagens aqui -->
+                </div>
+            </section>
 
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Services Gestão, especializado em serviço de Gestão condominial com vasta experiência no mercado condominial. Minha missão é garantir a gestão eficiente e harmoniosa dos condomínios, com foco na transparência e no bem-estar dos moradores.</p>
-            <h3>Serviços Oferecidos</h3>
-            <ul>
-                <li>Administração Financeira</li>
-                <li>Gestão de Conflitos</li>
-                <li>Manutenção Predial</li>
-                <li>Organização de Assembleias</li>
-                <li>Gestão por indicadores do sistema adotado</li>
-                <li>Plantão tira dúvidas todos os meses no condomínio, abordando sempre um tema específico do condomínio</li>
-            </ul>
-            <h3>Chaves de sucesso da gestão</h3>
-            <ul>
-                <li>Segurança</li>
-                <li>Transparência</li>
-                <li>Respeito</li>
-                <li>Valorização</li>
-            </ul>
-        </section>
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>Services Gestão, especializado em serviço de Gestão condominial com vasta experiência no mercado condominial. Minha missão é garantir a gestão eficiente e harmoniosa dos condomínios, com foco na transparência e no bem-estar dos moradores.</p>
+                <h3>Serviços Oferecidos</h3>
+                <ul>
+                    <li>Administração Financeira</li>
+                    <li>Gestão de Conflitos</li>
+                    <li>Manutenção Predial</li>
+                    <li>Organização de Assembleias</li>
+                    <li>Gestão por indicadores do sistema adotado</li>
+                    <li>Plantão tira dúvidas todos os meses no condomínio, abordando sempre um tema específico do condomínio</li>
+                </ul>
+                <h2>Chaves de sucesso da gestão</h2>
+                <ul>
+                    <li>Segurança</li>
+                    <li>Transparência</li>
+                    <li>Respeito</li>
+                    <li>Valorização</li>
+                </ul>
+            </section>
 
-        <section id="contato">
-            <h2>Informações de Contato</h2>
-            <p>Telefone: 31 987453210</p>
-            <p>Email: <a href="mailto:gestor@servicesgestao.com.br">gestor@servicesgestao.com.br</a></p>
-        </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Telefone: 31 987453210</p>
+                <p>Email: <a href="mailto:gestor@servicesgestao.com.br">gestor@servicesgestao.com.br</a></p>
+            </section>
 
-        <section id="fale-com-o-Gestor">
-            <h2>Fale com o Gestor</h2>
-            <form action="submit_form.php" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required>
-                
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-                
-                <button type="submit">Enviar</button>
-                <a href="https://wa.me/5531987453210" target="_blank" class="whatsapp-button">WhatsApp</a>
-            </form>
-        </section>
+            <section id="fale-com-o-Gestor">
+                <h2>Fale com o Gestor</h2>
+                <form action="https://formspree.io/f/mkgwjpyz" method="POST"> <!-- Endpoint correto -->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                    <a href="https://wa.me/5531987453210" target="_blank" class="whatsapp-button" title="Contato via WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </form>
+            </section>
+        </div> <!-- Fim do contêiner -->
     </main>
 
     <footer>
