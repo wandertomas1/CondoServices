@@ -1,0 +1,18 @@
+# Query: point
+# ContextLines: 1
+
+5 resultados - 2 arquivos
+
+C:\Users\wande\OneDrive\Área de Trabalho\ServicesGestao\action.html:
+  2      <h2>Fale com o Gestor</h2>
+  3:     <form action="https://formspree.io/f/[https://formspree.io/f/mvgpkqpd]" method="POST">
+  4          <label for="nome">Nome:</label>
+
+C:\Users\wande\OneDrive\Área de Trabalho\ServicesGestao\index.html:
+  100              border: none;
+  101:             cursor: pointer;
+  102          }
+
+  183                  <h2>Fale com o Gestor</h2>
+  184:                 <form action="https://formspree.io/f/[https://formspree.io/f/mvgpkqpd]" method="POST"> <!-- Substitua [seu-endpoint] pelo endpoint correto -->
+  185                      <label for="nome">Nome:</label>
